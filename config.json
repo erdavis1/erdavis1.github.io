@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Erin Davis"
+  },
+  "text": {
+    "more": "The Metalverse shows connections between metal artists as seen in Spotify: if one artist appears in another artist’s top 5 Related Artists, a line is drawn between them. An algorithm is then used to group these artists into categories. The category name is drawn from the genre shared by the largest number of bands in that group. Bands are sized by number of followers.  For more, please visit erdavis.com",
+    "intro": "The Metalverse shows connections between metal artists as seen in Spotify",
+    "title": "The Metalverse"
+  },
+  "legend": {
+    "edgeLabel": "Related Artists on Spotify",
+    "colorLabel": "Genre",
+    "nodeLabel": "Band"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Genre Category",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Genre Category"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
